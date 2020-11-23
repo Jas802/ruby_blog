@@ -15,7 +15,9 @@
             <tr>
                 <td><%= article.title %></td>
                 <td><%= article.description %></td>
-                <td> Placeholder </td>
+                <td><%= link_to 'Full Article', article_path(article) %>
+                <td><%= link_to 'Edit', edit_article_path(article) %>
+                <td><%= link_to 'Delete', article_path(article), method: :delete %></td>
             </tr>
         <% end %>
     </tbody>
