@@ -1,1 +1,18 @@
 @import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+    background-color: black !important;
+}
+
+.nav-link {
+    color: rgb(206, 100, 100) !important;
+}
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: rgb(206, 100, 100);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
