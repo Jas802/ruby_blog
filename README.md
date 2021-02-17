@@ -1,24 +1,12 @@
-# README
+Welcome to Ruby Blog!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This MVC application is built with Ruby on Rails and uses SQL for its database.
 
-Things you may want to cover:
+To use:
+Fork and clone this repository and cd into it.
 
-* Ruby version
+run 'rails db:migrate' to migrate into the database
 
-* System dependencies
+run 'rails s' to boot up a server
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Enjoy!
